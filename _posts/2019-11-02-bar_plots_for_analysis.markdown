@@ -10,7 +10,7 @@ For our first project I had my first attempt at data analysis. The data I used w
 
 My first thought was to use a scatter plot graphing both variables to see if there was any insight I could gain.
 
-![Scatter plot](https://imgur.com/a/d9ynPYU)
+![Scatter plot](https://i.imgur.com/mxfZssq.png)
 
 While you can see that there is a positive linear relationship between the number of bedrooms/bathroom and price, theres not much else you can infer from the graph. 
 
@@ -31,7 +31,7 @@ ax2.set_title('Price of Homes Based on Number of Bathrooms');
 plt.xlabel('Bathrooms');
 plt.ylabel('Price');
 ```
-![Bar Plot Example 1](https://imgur.com/NRfIi8x)
+![Bar Plot Example 1](https://i.imgur.com/NRfIi8x.png)
 
 As you can see, this graph is much easier to digest than the scatterplot giving us the average price of homes based on the number of bedrooms/bathrooms.
 
@@ -42,7 +42,7 @@ sns.barplot(x='bedrooms', y='price', hue='waterfront', data=df);
 sns.barplot(x='bathrooms', y='price', hue='waterfront', data = df);
 ```
 
-![Bar Plot Example 2](https://imgur.com/ZSjKYTZ)
+![Bar Plot Example 2](https://i.imgur.com/ZSjKYTZ.png)
 
 And if you'd like, you can get rid of the confidence intervals, using the ci parameter, to make the bar plot easier to read.
 
@@ -51,7 +51,7 @@ sns.barplot(x='bedrooms', y='price', hue='waterfront', ci=None, data=df);
 sns.barplot(x='bathrooms', y='price', hue='waterfront', ci=None, data = df);
 ```
 
-![Bar Plot Example 3](https://imgur.com/SclUVc8)
+![Bar Plot Example 3](https://i.imgur.com/SclUVc8.png)
 
 There are many more parameters that you can use to further refine your bar graphs which can be found in the [seaborn bar plot documentation](https://seaborn.pydata.org/generated/seaborn.barplot.html).
 
