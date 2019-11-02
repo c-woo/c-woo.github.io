@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bar Plots for Analysis"
-date:       2019-11-02 19:01:46 +0000
+date:       2019-11-02 15:01:47 -0400
 permalink:  bar_plots_for_analysis
 ---
 
