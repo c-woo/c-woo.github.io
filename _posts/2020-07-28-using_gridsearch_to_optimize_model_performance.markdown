@@ -51,7 +51,7 @@ Now that we have our data prepared for our models, lets take a look at how grids
 ## Using Gridsearch
 I'll be using Gridsearch on a logistic regression model and a random forest model to see how it improves model performance. 
 
-### 1. Logistic Regression
+**### 1. Logistic Regression**
 
 Lets begin by creating a baseline logistic regression model.
 
@@ -92,7 +92,7 @@ logistic_gridsearch.best_params_
 
 The accuracy score we get with Gridsearch is **78.67%**. It improved our models performance very slightly. Let's see if using Gridsearch with random forest has better results with more parameters in the grid.
 
-### 2. Random Forest
+**### 2. Random Forest**
 
 We'll do the same as before and create a baseline random forest model.
 
