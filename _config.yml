@@ -1,11 +1,11 @@
 # Site settings
 author: Christopher Woo
-title: Journey Into Data Science
+title: My Journey Into Data Science
 header-img: img/home-bg.png
 email: cwoo90@gmail.com
 copyright_name: Christopher Woo
 description: > # this means to ignore newlines until "baseurl:"
-  Projects
+   
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  c-woo
