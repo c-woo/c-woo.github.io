@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Quick Guide to Facebook Prophet for Time Series Analysis"
-date:       2020-11-04 12:38:04 +0000
+date:       2020-11-04 07:38:05 -0500
 permalink:  a_quick_guide_to_facebook_prophet_for_time_series_analysis
 ---
 
@@ -86,4 +86,4 @@ plt.show()
 
 We can see the upward trend in our data as well as the yearly seasonality. Since our data is monthly we see the yearly seasonality, but if you were working with daily data, you would also see a weekly seasonality plot. 
 
-Using Prophet we were able to quickly and easily model and forecast our time series data and hopefully you'll be able to use Prophet to model and forecast your time series data.
+Using Prophet, we were able to quickly and easily model and forecast our time series data and hopefully you'll be able to use Prophet to model and forecast your time series data as well.
